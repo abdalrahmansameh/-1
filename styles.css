@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.game {
+    display: none;
+}
+
+.container {
+    margin: 180px auto;
+    padding: 50px;
+    max-width: 1000px;
+    height: 500px;
+    background-color: rgb(236, 232, 232);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.game-board {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rules {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.words, .rules {
+    width: 45%;
+    background-color: #f3dfdf;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.words {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.word, .rule {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #9c9c9c;
+    border: 1px solid #504f4f;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.draggable {
+    user-select: none;
+}
+
+#start-game-button {
+    margin: 20px auto;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+#game-container {
+    display: none;
+}
+
+/* .btn {
+    width : 00px ;
+}
+
+if .offset-md-3 {
+    width: 200px !important;
+}
+
+if .col-md-6 {
+    width: 900px !important;
+}
+
+if .col-sm-12 {
+    width: 200px !important;
+} */
